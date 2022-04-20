@@ -15,7 +15,7 @@ const Question = ({ title, info }) => {
               setShowInfo(!showInfo);
             }}
           >
-            {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+            btn
           </button>
         </header>
         {showInfo && <p>{info}</p>}
